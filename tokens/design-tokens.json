@@ -1,0 +1,36 @@
+{
+  "name": "liquid-glass-futuristic",
+  "version": "1.0",
+  "color": {
+    "primaryBlue":    { "value": "#0D6EFD", "role": "highlight, CTA, visual focus" },
+    "silver":         { "value": "#C0C4CC", "role": "panels, borders, secondary elements" },
+    "deepBlack":      { "value": "#0B0B0D", "role": "main background" },
+    "darkNavy":       { "value": "#080E1B", "role": "background support" },
+    "lightSilver":    { "value": "#E2E7F0", "role": "light surfaces, text support" },
+    "white":          { "value": "#FFFFFF", "role": "primary text" },
+    "cyanGlow":       { "value": "#00CFFF", "role": "lighting accent only" },
+    "glassDark":      { "value": "#18243A", "role": "dark glass material" },
+    "distribution":   { "blackNavy": "50%", "silver": "25%", "electricBlue": "15%", "whiteCyan": "10%" }
+  },
+  "typography": {
+    "heading": { "family": "Space Grotesk", "weights": { "mainTitle": 700, "section": 600, "subheading": 500 } },
+    "body":    { "family": "Inter", "weights": { "text": 400, "navigation": 500, "button": 600 } },
+    "rule": "Maximum two font families. No decorative fonts."
+  },
+  "geometry": {
+    "system": "angular",
+    "panelCorner": "diagonal cut (chamfered), consistent size across components",
+    "forbidden": "oversized rounded corners"
+  },
+  "glass": {
+    "levels": ["Glass Light (silver translucent)", "Glass Dark (dark transparent)", "Glass Accent (blue translucent)"],
+    "traits": ["semi-transparent surface", "background blur", "subtle metallic reflection", "thin luminous border", "layered transparency"],
+    "lighting": ["electric blue edge glow", "silver reflection", "soft directional lighting", "subtle cyan highlights"]
+  },
+  "spacing": { "base": 8, "xs": 4, "sm": 8, "md": 16, "lg": 24, "xl": 32, "xxl": 48, "xxxl": 64 },
+  "motion": {
+    "types": ["fade-in", "slide-in", "scale", "glass-reflection", "blue-glow-pulse", "layer-reveal", "parallax"],
+    "durationMs": { "microInteraction": [150, 250], "uiTransition": [300, 500], "panelReveal": [500, 800], "sceneTransition": [600, 1000] },
+    "easing": "ease-in-out / cubic-bezier, smooth and controlled"
+  }
+}

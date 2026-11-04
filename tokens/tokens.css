@@ -1,0 +1,30 @@
+:root {
+  /* Liquid Glass Futuristic — design tokens v1.0 */
+  --lg-blue: #0D6EFD;
+  --lg-silver: #C0C4CC;
+  --lg-black: #0B0B0D;
+  --lg-navy: #080E1B;
+  --lg-light-silver: #E2E7F0;
+  --lg-white: #FFFFFF;
+  --lg-cyan: #00CFFF;
+  --lg-glass-dark: #18243A;
+
+  --lg-font-heading: "Space Grotesk", sans-serif;
+  --lg-font-body: "Inter", sans-serif;
+
+  --lg-space-xs: 4px;
+  --lg-space-sm: 8px;
+  --lg-space-md: 16px;
+  --lg-space-lg: 24px;
+  --lg-space-xl: 32px;
+  --lg-space-xxl: 48px;
+  --lg-space-xxxl: 64px;
+
+  --lg-cut: 24px; /* diagonal cut-corner size, keep consistent */
+
+  --lg-dur-micro: 200ms;
+  --lg-dur-ui: 400ms;
+  --lg-dur-panel: 650ms;
+  --lg-dur-scene: 800ms;
+  --lg-ease: cubic-bezier(0.4, 0, 0.2, 1);
+}
