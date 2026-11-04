@@ -1,83 +1,31 @@
-# Liquid Glass Design System
+# LAPIS — Design System 2.5D & 3D
 
-Futuristic design system for motion graphics and UI animation.
-**Liquid Glass + Angular Geometry** — Silver × Black × Electric Blue.
-
-Author: Erlangga · Version 1.0 · License: MIT
-
-## Identity
-
-- Visual style: Liquid Glass (frosted transparency, metallic reflection, luminous edges)
-- Geometry: Angular — sharp, chamfered, cut-corner shapes. No oversized rounded corners.
-- Mood: Modern, professional, futuristic, premium.
-- Priority: Visual consistency > decorative effects. Never sacrifice readability for effects.
-
-## Palette
-
-| Token | Color | Hex | Role |
-|---|---|---|---|
-| Primary Blue | Electric Blue | `#0D6EFD` | Highlight, CTA, visual focus |
-| Secondary Silver | Silver | `#C0C4CC` | Panels, borders, secondary elements |
-| Base Black | Deep Black | `#0B0B0D` | Main background |
-| Dark Navy | Navy | `#080E1B` | Background support |
-| Light Silver | Light Silver | `#E2E7F0` | Light surfaces, text support |
-| White | Pure White | `#FFFFFF` | Primary text |
-| Cyan Glow | Electric Cyan | `#00CFFF` | Lighting accent only |
-| Dark Surface | Glass Dark | `#18243A` | Dark glass material |
-
-Distribution: 50% Black / Dark Navy · 25% Silver · 15% Electric Blue · 10% White / Cyan Glow.
-Never use all colors at the same intensity.
-
-## Typography
-
-- Headings: **Space Grotesk** (700 / 600 / 500)
-- Body: **Inter** (400 / 500 / 600)
-- Never more than two font families. No decorative fonts.
-
-## Geometry
-
-- Panels use diagonal cut corners, applied consistently across all components.
-- Buttons and cards use firm geometric shapes and angular outlines.
-- One corner system for the whole system.
-
-## Glass Material
-
-Three levels: **Glass Light** (silver translucent), **Glass Dark** (dark transparent), **Glass Accent** (blue translucent).
-Every glass element: semi-transparent surface, background blur, subtle metallic reflection, thin luminous border (electric blue edge glow), layered transparency.
-
-## Motion
-
-Smooth, precise, controlled. Fade In · Slide In · Scale Transition · Glass Reflection sweep · Blue Glow Pulse · Layer Reveal · Parallax.
-
-| Type | Duration |
-|---|---|
-| Micro interaction | 150–250 ms |
-| UI transition | 300–500 ms |
-| Panel reveal | 500–800 ms |
-| Scene transition | 600–1000 ms |
+Sistem desain milik Erlangga untuk video motion graphics dan UI: gambar berlapis yang terasa punya kedalaman (2.5D) dan set 3D low-poly sederhana. Palet Silver × Hitam × Biru Elektrik, font Space Grotesk + Inter. Sifat wajibnya dua: **hidup** dan **nyaman di mata**.
 
 ## Visual Progression
 
-The same composition in three stages — flat, layered, then full liquid glass. The third stage is the target feel.
+Tiga tahap kedalaman dengan komposisi yang sama:
 
-![2D flat](examples/visual-2d.svg)
+**2D — datar**
 
-![2.5D layered depth](examples/visual-25d.svg)
+![Visual 2D](examples/visual-2d.svg)
 
-![Liquid glass full](examples/visual-liquid-glass.svg)
+**2.5D — berlapis, bayangan lembut, parallax**
 
-## Repository Structure
+![Visual 2.5D](examples/visual-25d.svg)
 
-- `DESIGN-SYSTEM.md` — the complete master document (philosophy, color, typography, geometry, glass, components, spacing, motion, composition, consistency rules).
-- `tokens/` — machine-readable design tokens (`design-tokens.json`, `tokens.css`).
-- `components/` — reusable component specifications.
-- `SKILL.md` — instructions for AI agents: how to apply this system when producing animations.
-- `examples/` — visual references and style tests.
+**3D — low-poly, satu cahaya kiri atas**
 
-## For AI Agents
+![Visual 3D](examples/visual-3d.svg)
 
-Read `SKILL.md` first, then `DESIGN-SYSTEM.md`. Build tokens, build reusable components, storyboard, animatic, final render, consistency check — in that order.
+## Isi repo
 
-## License
+- `DESIGN-SYSTEM.md` — dokumen utama: prinsip, warna, sistem kedalaman, geometri, tipografi, komponen, motion, komposisi.
+- `tokens/` — design tokens dalam JSON dan CSS.
+- `components/COMPONENTS.md` — rincian 10 komponen reusable dan elemen set 3D.
+- `SKILL.md` — instruksi untuk AI agent yang memakai sistem ini.
+- `examples/` — visual contoh tiga tahap kedalaman.
 
-MIT — see `LICENSE`.
+## Lisensi
+
+MIT — © 2026 Erlangga

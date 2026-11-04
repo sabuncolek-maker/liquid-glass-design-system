@@ -1,34 +1,19 @@
 ---
-name: liquid-glass-design-system
-description: Apply the Liquid Glass Futuristic design system (Silver × Black × Electric Blue, angular glass) when designing or animating motion graphics and UI. Use whenever producing visuals in this style.
+name: lapis-design-system
+description: Design system 2.5D berlapis + 3D low-poly milik Erlangga (Silver × Hitam × Biru Elektrik, Space Grotesk + Inter). Pakai saat membuat video motion graphics, UI, atau visual apa pun yang diminta mengikuti sistem ini.
 ---
 
-# Liquid Glass Design System — Agent Instructions
+# LAPIS — Design System 2.5D & 3D
 
-You are producing motion graphics / UI visuals in the Liquid Glass Futuristic style owned by Erlangga. The full specification lives in `DESIGN-SYSTEM.md` in this repository — read it before producing anything. Machine-readable values live in `tokens/design-tokens.json` and `tokens/tokens.css`. Component specifications live in `components/COMPONENTS.md`.
+Sebelum bekerja, baca `DESIGN-SYSTEM.md` di repo ini sampai selesai. Itu hukumnya. Ringkasan yang mengikat:
 
-## Hard rules
+- **Gaya**: 2.5D berlapis (panel bertumpuk, bayangan lembut, parallax) dan set 3D low-poly dari bangun dasar. Bukan kaca, bukan blur tembus pandang, bukan sudut angular.
+- **Warna**: Electric Blue #0D6EFD, Silver #C0C4CC, Deep Black #0B0B0D; pendukung Dark Navy #080E1B, Panel Deep #18243A, Light Silver #E2E7F0, Cyan Glow #00CFFF (cahaya aksen saja). Distribusi 50% hitam/navy, 25% silver, 15% biru, 10% putih/cyan.
+- **Kedalaman**: empat tingkat L0–L3 dengan bayangan dan faktor parallax sesuai tabel di DESIGN-SYSTEM.md. Satu sumber cahaya dari kiri atas: sisi atas paling terang, sisi kanan paling gelap.
+- **Geometri**: sudut membulat halus (radius 10/18/28px). Pil penuh hanya untuk toggle dan chip bulat.
+- **Font**: Space Grotesk untuk heading, Inter untuk body. Maksimal dua keluarga.
+- **Komponen**: pakai 10 komponen reusable dari `components/COMPONENTS.md`; jangan mengarang komponen baru tanpa kebutuhan nyata.
+- **Motion**: spring melenting halus, elemen melayang dan bernapas, parallax saat kamera bergerak, transisi lewat geseran lapisan. Dilarang easing linear dan fade polos tanpa gerak.
+- **Komposisi**: Opening bertingkat → Main Content satu fokus → Transisi lapisan → Closing memusat.
 
-- Palette is frozen: Electric Blue `#0D6EFD`, Silver `#C0C4CC`, Deep Black `#0B0B0D`, plus the supporting tokens in the design system. Distribution 50% black/navy, 25% silver, 15% blue, 10% white/cyan. Never introduce new main colors or random gradients.
-- Geometry is angular: diagonal cut corners, one consistent cut size. Oversized rounded corners are forbidden.
-- Fonts: Space Grotesk for headings, Inter for body. Nothing else.
-- Glass material on every panel/card: frosted transparency, metallic reflection, thin luminous border, layered depth (Glass Light / Glass Dark / Glass Accent).
-- Motion is smooth and controlled, using the duration table in the design system. No fast, broken, or excessive movement; no excessive glow.
-- Visual consistency beats decorative effects. Never sacrifice readability for an effect.
-- No cartoon elements mixed into the futuristic style. No decorative element without a function. Every scene keeps the same design identity.
-
-## Workflow
-
-1. Read `DESIGN-SYSTEM.md` and the tokens.
-2. Build or reuse the components — never redesign a component per scene.
-3. Storyboard the scenes (opening → main content → transitions → closing) per section 9 of the design system.
-4. Build an animatic / preview first and get it approved before the final render.
-5. Produce the final animation.
-6. Consistency check before delivery: colors, fonts, corner system, lighting, motion timing — all against the tokens.
-
-## Scene composition
-
-- Opening: dark navy background, blue light streak, glass elements appear gradually (layer reveal + parallax).
-- Main content: Space Grotesk headings, Inter information, liquid glass panels, Electric Blue highlights.
-- Transitions: angular masks, glass reflection sweeps, parallax. Keep visual continuity.
-- Closing: restate the key information, blue glow accent, clean exit transition.
+Urutan kerja wajib: baca design system → ambil tokens → pakai komponen → storyboard → animatic/preview → final → cek konsistensi (warna, font, lapisan, cahaya, gerak). Konsistensi lebih penting daripada dekorasi; jangan mengorbankan keterbacaan.

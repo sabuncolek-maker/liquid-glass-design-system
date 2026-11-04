@@ -1,9 +1,9 @@
-# Examples
+# Contoh Visual
 
-Visual references for this design system — the same composition in three stages:
+Tiga tahap kedalaman dengan komposisi yang sama — panel, kartu, tombol, dan set sederhana:
 
-- `visual-2d.svg` — flat 2D: solid colors, no depth, no shadow.
-- `visual-25d.svg` — 2.5D: layered plates, extrusion shadows, gradient shading.
-- `visual-liquid-glass.svg` — full liquid glass: dark scene, frosted angular panel, glossy chips, blue liquid glow. **This is the target feel.**
+1. `visual-2d.svg` — tahap datar: semua elemen satu bidang, tanpa bayangan.
+2. `visual-25d.svg` — tahap berlapis: elemen bertumpuk L0–L3, bayangan lembut, kesan kedalaman.
+3. `visual-3d.svg` — tahap low-poly: set isometric dari bangun dasar ber-facet, satu cahaya dari kiri atas.
 
-Style test clips will be added here as they are produced and approved.
+Sistem ini hidup di tahap 2 dan 3. Tahap 1 hanya titik awal perbandingan.

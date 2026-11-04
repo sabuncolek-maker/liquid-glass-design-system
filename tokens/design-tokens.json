@@ -1,36 +1,35 @@
 {
-  "name": "liquid-glass-futuristic",
+  "name": "LAPIS Design System 2.5D & 3D",
   "version": "1.0",
   "color": {
-    "primaryBlue":    { "value": "#0D6EFD", "role": "highlight, CTA, visual focus" },
-    "silver":         { "value": "#C0C4CC", "role": "panels, borders, secondary elements" },
-    "deepBlack":      { "value": "#0B0B0D", "role": "main background" },
-    "darkNavy":       { "value": "#080E1B", "role": "background support" },
-    "lightSilver":    { "value": "#E2E7F0", "role": "light surfaces, text support" },
-    "white":          { "value": "#FFFFFF", "role": "primary text" },
-    "cyanGlow":       { "value": "#00CFFF", "role": "lighting accent only" },
-    "glassDark":      { "value": "#18243A", "role": "dark glass material" },
-    "distribution":   { "blackNavy": "50%", "silver": "25%", "electricBlue": "15%", "whiteCyan": "10%" }
+    "electric-blue": "#0D6EFD",
+    "silver": "#C0C4CC",
+    "deep-black": "#0B0B0D",
+    "dark-navy": "#080E1B",
+    "panel-deep": "#18243A",
+    "light-silver": "#E2E7F0",
+    "white": "#FFFFFF",
+    "cyan-glow": "#00CFFF"
   },
-  "typography": {
-    "heading": { "family": "Space Grotesk", "weights": { "mainTitle": 700, "section": 600, "subheading": 500 } },
-    "body":    { "family": "Inter", "weights": { "text": 400, "navigation": 500, "button": 600 } },
-    "rule": "Maximum two font families. No decorative fonts."
+  "distribution": { "black-navy": "50%", "silver": "25%", "blue": "15%", "white-cyan": "10%" },
+  "font": {
+    "heading": "Space Grotesk",
+    "body": "Inter",
+    "weight": { "heading": [500, 600, 700], "body": [400, 500, 600] }
   },
-  "geometry": {
-    "system": "angular",
-    "panelCorner": "diagonal cut (chamfered), consistent size across components",
-    "forbidden": "oversized rounded corners"
+  "depth": {
+    "L0-background": { "shadow": "none", "parallax": 0.2 },
+    "L1-surface": { "shadow": "0 10px 24px rgba(0,0,0,0.25)", "parallax": 0.5 },
+    "L2-raised": { "shadow": "0 18px 36px rgba(0,0,0,0.30)", "parallax": 0.8 },
+    "L3-floating": { "shadow": "0 28px 54px rgba(0,0,0,0.35)", "parallax": 1.0 }
   },
-  "glass": {
-    "levels": ["Glass Light (silver translucent)", "Glass Dark (dark transparent)", "Glass Accent (blue translucent)"],
-    "traits": ["semi-transparent surface", "background blur", "subtle metallic reflection", "thin luminous border", "layered transparency"],
-    "lighting": ["electric blue edge glow", "silver reflection", "soft directional lighting", "subtle cyan highlights"]
-  },
-  "spacing": { "base": 8, "xs": 4, "sm": 8, "md": 16, "lg": 24, "xl": 32, "xxl": 48, "xxxl": 64 },
+  "light": { "direction": "top-left", "facet": { "top": "lightest", "left": "mid", "right": "darkest" } },
+  "radius": { "sm": "10px", "md": "18px", "lg": "28px", "pill": "999px" },
+  "spacing": { "xs": "4px", "sm": "8px", "md": "16px", "lg": "24px", "xl": "32px", "xxl": "48px", "xxxl": "64px" },
   "motion": {
-    "types": ["fade-in", "slide-in", "scale", "glass-reflection", "blue-glow-pulse", "layer-reveal", "parallax"],
-    "durationMs": { "microInteraction": [150, 250], "uiTransition": [300, 500], "panelReveal": [500, 800], "sceneTransition": [600, 1000] },
-    "easing": "ease-in-out / cubic-bezier, smooth and controlled"
+    "duration": { "micro": "150-250ms", "ui": "300-500ms", "panel-reveal": "500-800ms", "scene": "600-1000ms" },
+    "spring": "low damping, soft overshoot",
+    "float": { "amplitude": "4-8px", "cycle": "3-5s" },
+    "forbidden": ["linear easing", "plain fade without movement"]
   }
 }

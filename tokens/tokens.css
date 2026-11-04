@@ -1,30 +1,31 @@
 :root {
-  /* Liquid Glass Futuristic — design tokens v1.0 */
-  --lg-blue: #0D6EFD;
-  --lg-silver: #C0C4CC;
-  --lg-black: #0B0B0D;
-  --lg-navy: #080E1B;
-  --lg-light-silver: #E2E7F0;
-  --lg-white: #FFFFFF;
-  --lg-cyan: #00CFFF;
-  --lg-glass-dark: #18243A;
+  /* LAPIS — Design System 2.5D & 3D */
+  --color-electric-blue: #0D6EFD;
+  --color-silver: #C0C4CC;
+  --color-deep-black: #0B0B0D;
+  --color-dark-navy: #080E1B;
+  --color-panel-deep: #18243A;
+  --color-light-silver: #E2E7F0;
+  --color-white: #FFFFFF;
+  --color-cyan-glow: #00CFFF;
 
-  --lg-font-heading: "Space Grotesk", sans-serif;
-  --lg-font-body: "Inter", sans-serif;
+  --font-heading: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
 
-  --lg-space-xs: 4px;
-  --lg-space-sm: 8px;
-  --lg-space-md: 16px;
-  --lg-space-lg: 24px;
-  --lg-space-xl: 32px;
-  --lg-space-xxl: 48px;
-  --lg-space-xxxl: 64px;
+  --shadow-l1: 0 10px 24px rgba(0, 0, 0, 0.25);
+  --shadow-l2: 0 18px 36px rgba(0, 0, 0, 0.30);
+  --shadow-l3: 0 28px 54px rgba(0, 0, 0, 0.35);
 
-  --lg-cut: 24px; /* diagonal cut-corner size, keep consistent */
+  --radius-sm: 10px;
+  --radius-md: 18px;
+  --radius-lg: 28px;
+  --radius-pill: 999px;
 
-  --lg-dur-micro: 200ms;
-  --lg-dur-ui: 400ms;
-  --lg-dur-panel: 650ms;
-  --lg-dur-scene: 800ms;
-  --lg-ease: cubic-bezier(0.4, 0, 0.2, 1);
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-xxl: 48px;
+  --space-xxxl: 64px;
 }
