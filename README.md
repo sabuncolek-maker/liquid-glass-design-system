@@ -56,6 +56,16 @@ Smooth, precise, controlled. Fade In · Slide In · Scale Transition · Glass Re
 | Panel reveal | 500–800 ms |
 | Scene transition | 600–1000 ms |
 
+## Visual Progression
+
+The same composition in three stages — flat, layered, then full liquid glass. The third stage is the target feel.
+
+![2D flat](examples/visual-2d.svg)
+
+![2.5D layered depth](examples/visual-25d.svg)
+
+![Liquid glass full](examples/visual-liquid-glass.svg)
+
 ## Repository Structure
 
 - `DESIGN-SYSTEM.md` — the complete master document (philosophy, color, typography, geometry, glass, components, spacing, motion, composition, consistency rules).
