@@ -38,10 +38,10 @@
   <polygon points="600,362 664,330 728,362 664,388" fill="#0D6EFD"/>
   <!-- low-poly tree -->
   <rect x="300" y="402" width="10" height="34" fill="#16294F"/>
-  <polygon points="305,318 348,396 305,382" fill="#2563EB"/>
-  <polygon points="305,318 262,396 305,382" fill="#1E40AF"/>
-  <polygon points="305,356 338,414 305,402" fill="#0D6EFD"/>
-  <polygon points="305,356 272,414 305,402" fill="#1E40AF"/>
+  <polygon points="305,318 348,396 305,382" fill="#3E9B4F"/>
+  <polygon points="305,318 262,396 305,382" fill="#63B96F"/>
+  <polygon points="305,356 338,414 305,402" fill="#2F7D3C"/>
+  <polygon points="305,356 272,414 305,402" fill="#4CA85C"/>
   <!-- path stones -->
   <g fill="#C0C4CC" opacity="0.55">
     <polygon points="470,470 512,486 486,500 448,486"/>

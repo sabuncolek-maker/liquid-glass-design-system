@@ -44,6 +44,7 @@ Aturan kedalaman:
 - Bayangan selalu jatuh ke bawah, lembut, satu arah. Tidak ada bayangan keras.
 - Saat kamera bergerak, lapisan jauh bergerak lebih lambat (parallax sesuai faktor di atas).
 - Set 3D memakai sudut isometric ±30°.
+- Properti alam memakai warna aslinya (daun hijau, tanah cokelat, air biru) dengan aturan facet cahaya yang sama. Palet utama mengatur UI dan identitas, bukan memaksa pohon jadi biru.
 - Satu sumber cahaya: dari kiri atas. Sisi atas benda paling terang, sisi kiri sedang, sisi kanan paling gelap. Berlaku untuk semua facet low-poly.
 
 ## 4. Geometri
